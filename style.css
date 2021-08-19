@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* this here is for the navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+    background: crimson;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+margin-left: 15px;
+}
+
+/* home section styling */
+.home {
+display: flex;
+background-color: black;
+height: 100vh;
+}
+
+/* remember to use overflow to make a child that's overflowing from it's parents to be contained in it's 
+parents. i.e. overflow: hidden. it hids the overflowing child, overflow: scroll. it hids and shows the child
+but showing the hidden child by scrolling it. */
+

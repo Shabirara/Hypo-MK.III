@@ -198,7 +198,7 @@ footer {
     background-color: rgb(26, 25, 25);
 }
 
-@media (max-width: 970px) {
+@media (max-width: 1000px) {
     .main-txt {
         width: 50%;
     }
@@ -208,5 +208,17 @@ footer {
         width: 48%;
         margin: 1%;
         height: 600px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .main-txt {
+        width: 100%;
+    }
+
+    .square {
+        width: 98%;
+        margin: 1%;
+        height: 350px;
     }
 }
